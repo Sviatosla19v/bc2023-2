@@ -1,13 +1,1 @@
-
-const scheme = 'http';
-const hostname = 'backend.course';
-const fragment = 'Sviatosla19v';
-
-const url = new URL(`${scheme}://${hostname}`);
-url.hash = encodeURIComponent(fragment);
-
-console.log(url.href);
-
-
-
-console.log("http://backend.course/#Sviatosla19v")
+http://backend.course/#Sviatosla19v
